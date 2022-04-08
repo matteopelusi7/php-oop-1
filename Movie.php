@@ -19,4 +19,8 @@ class Movie {
         $this->description = $_description;
     }
 
+    public function getFullMovie() {
+        return "Titolo: $this->title <br> Autore: $this->author <br> Voto: $this->vote <br> Anno: $this->year <br> Genere: $this->genre <br> Descrizione: $this->description";
+    }
+
 }

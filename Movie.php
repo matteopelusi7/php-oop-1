@@ -9,7 +9,7 @@ class Movie {
     public $genre;
     public $description;
 
-    function __construct( string $_title, string $_author, int $_vote, int $_year, string $_genre, string $_description )
+    function __construct( string $_title, string $_author, string $_vote, int $_year, string $_genre, string $_description )
     {
         $this->title = $_title;
         $this->author = $_author;

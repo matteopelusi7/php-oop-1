@@ -8,6 +8,7 @@ $lo_squalo = new Movie("Lo Squalo", "Steven Spielberg", 8.8, 1975, "thriller", "
 
 var_dump($ritorno_al_futuro);
 var_dump($jurassic_park);
+var_dump($lo_squalo);
 
 ?>
 
